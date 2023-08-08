@@ -1,0 +1,52 @@
+body{
+    background-color: antiquewhite;
+}
+
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.card{ 
+    border-radius: 30px;
+    width:300px;
+    background-color: #78f0b4;
+}
+.title{
+    text-align: center;
+    color: aliceblue;
+}
+.title .name{
+    font-size: 2em;
+}
+.title .info,
+.category,
+.stock{
+    font-size: 1.3em;
+}
+.price{
+    text-align: center;
+    font-size: 2em;
+}
+.img .item{
+    width: 100%;
+}
+.img{
+    padding: 10px;
+}
+
+.addCard i{
+    width:13%;
+    height:50px;
+    background-color: #0471f1;
+    color:#222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:5px solid #222;
+    cursor: pointer;
+    margin: 5px;
+}
